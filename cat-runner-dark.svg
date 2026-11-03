@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160" role="img" aria-label="A black cat running and jumping over cacti">
+  <style>
+    svg { --ink:#f5f5f5; --bg:#0d1117; }
+
+    .ink    { fill:var(--ink); }
+    .line   { stroke:var(--ink); stroke-width:2; }
+    .ticks  { stroke:var(--ink); stroke-width:3; stroke-dasharray:14 66; animation:ticks .3s linear infinite; }
+    @keyframes ticks { to { stroke-dashoffset:80; } }
+
+    .cactus { animation:run 3s linear infinite; }
+    @keyframes run { from { transform:translateX(820px); } to { transform:translateX(-80px); } }
+
+    .jump { animation:jump 3s linear infinite; }
+    @keyframes jump {
+      0%, 72%  { transform:translateY(0);     animation-timing-function:ease-out; }
+      80%      { transform:translateY(-68px); animation-timing-function:ease-in; }
+      88%, 100% { transform:translateY(0); }
+    }
+
+    .leg { transform-box:fill-box; transform-origin:50% 0%; }
+    .legA { animation:step .26s ease-in-out infinite alternate; }
+    .legB { animation:step .26s ease-in-out infinite alternate-reverse; }
+    @keyframes step { from { transform:rotate(-30deg); } to { transform:rotate(30deg); } }
+
+    .tail { fill:none; stroke:var(--ink); stroke-width:6; stroke-linecap:round;
+            transform-box:fill-box; transform-origin:100% 100%; animation:wag .35s ease-in-out infinite alternate; }
+    @keyframes wag { from { transform:rotate(-8deg); } to { transform:rotate(8deg); } }
+
+    .eye { fill:var(--bg); }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation:none !important; }
+    }
+  </style>
+
+  <!-- ground -->
+  <line class="line" x1="0" y1="130" x2="800" y2="130"/>
+  <line class="ticks" x1="0" y1="142" x2="800" y2="142"/>
+
+  <!-- cacti -->
+  <g transform="translate(0,130)">
+    <g class="cactus">
+      <rect class="ink" x="0" y="-40" width="12" height="40" rx="6"/>
+      <rect class="ink" x="-8" y="-26" width="8" height="6" rx="3"/>
+      <rect class="ink" x="-8" y="-33" width="6" height="13" rx="3"/>
+      <rect class="ink" x="12" y="-22" width="8" height="6" rx="3"/>
+      <rect class="ink" x="14" y="-29" width="6" height="13" rx="3"/>
+      <rect class="ink" x="34" y="-28" width="9" height="28" rx="4.5"/>
+    </g>
+  </g>
+
+  <!-- cat -->
+  <g transform="translate(110,130)">
+    <g class="jump">
+      <path class="tail" d="M-20 -26 C-36 -28 -38 -46 -28 -52"/>
+      <rect class="ink leg legB" x="-10" y="-16" width="7" height="16" rx="3.5"/>
+      <rect class="ink leg legB" x="8" y="-16" width="7" height="16" rx="3.5"/>
+      <ellipse class="ink" cx="0" cy="-26" rx="23" ry="12"/>
+      <rect class="ink leg legA" x="-19" y="-16" width="7" height="16" rx="3.5"/>
+      <rect class="ink leg legA" x="16" y="-16" width="7" height="16" rx="3.5"/>
+      <circle class="ink" cx="23" cy="-38" r="11"/>
+      <polygon class="ink" points="14,-45 15,-60 24,-48"/>
+      <polygon class="ink" points="24,-48 33,-59 34,-44"/>
+      <circle class="eye" cx="28" cy="-40" r="1.8"/>
+    </g>
+  </g>
+</svg>

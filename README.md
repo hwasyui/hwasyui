@@ -1,11 +1,17 @@
-# Hi, I'm Angelica Whiharto 👋
+# Hi, I'm Angelica 👋
 
 <div align="center">
-  <h3>Data Engineer • Backend Developer • AI Enthusiast</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./cat-runner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./cat-runner-light.svg">
+    <img src="./cat-runner-light.svg" alt="A cat running and jumping over cacti" width="100%"/>
+  </picture>
+
+  <h3>Data Engineer • Backend Developer • AI Tinkerer</h3>
 
   <p>
-    Informatics student interested in building data systems, backend services, and practical AI applications.<br/>
-    Focused on data pipelines, APIs, and scalable backend architectures.
+    Informatics student who likes pipelines, APIs, and systems that don't fall over at 3 AM.<br/>
+    Also very into clean, modular code. Future me says thanks.
   </p>
 
   <a href="https://www.linkedin.com/in/angelicawhiharto/">
@@ -26,13 +32,13 @@
 
 ## 👩‍💻 About Me
 
-I am an **Informatics student at President University** with strong interests in **data engineering, backend systems, and applied machine learning**.
+I'm an Informatics student at President University. Most of my time goes into backends, data pipelines, and the occasional ML project. I've worked on Kafka, CDC, and FastAPI in real teams, and lately I've been digging into Spark and Iceberg.
 
-My experience includes working with **backend APIs, distributed systems, and data pipelines** in real-world environments. I enjoy experimenting with infrastructure, performance optimization, and building reliable systems that process and move data efficiently.
+I like code that's clean, split into small modules, and easy for the next person to read (usually that's me, three weeks later).
 
-- 🔧 **Current focus:** Data engineering, CDC pipelines, and backend systems  
-- ⚙️ **Tools I work with:** Kafka, FastAPI, Docker, PostgreSQL, and Linux environments  
-- 🎓 **Education:** B.Sc. Informatics, President University (GPA 3.96 - 116 Credits)
+- 🔧 **Right now:** CDC pipelines, lakehouse stuff, and backend systems  
+- ⚙️ **Daily tools:** Kafka, Spark, Iceberg, FastAPI, Docker, PostgreSQL, Linux  
+- 🎓 **School:** B.Sc. Informatics, President University (GPA 3.96, 116 credits)
 
 ---
 
@@ -55,6 +61,11 @@ My experience includes working with **backend APIs, distributed systems, and dat
 **Data & Infrastructure**
 
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Apache Iceberg](https://img.shields.io/badge/Apache_Iceberg-4C8EDA?style=flat-square&logo=apache&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
@@ -63,22 +74,21 @@ My experience includes working with **backend APIs, distributed systems, and dat
 
 ---
 
-## 💼 Experience
+## 💼 Where I've Worked
 
-**Data Engineer Intern — PT Federal International Finance (FIFGROUP)**  
-- Installed and configured Oracle Database on Red Hat Enterprise Linux and explored database high availability with Oracle Data Guard.  
-- Built a **Change Data Capture (CDC) pipeline** using Apache Kafka, Debezium, Prometheus, and Grafana.  
-- Implemented CDC synchronization between Oracle databases for production tables.
+**Developer & Automation Intern at CrescentRating (Singapore, remote)**  
+- Built the **Preconsultation website**, live at [crescentrating.com/research-and-consultancy](https://www.crescentrating.com/research-and-consultancy) and [crescentrating.com/preconsultation](https://www.crescentrating.com/preconsultation).  
+- Built the public **Glossary page** at [crescentrating.com/glossary](https://www.crescentrating.com/glossary), plus the internal tool the team uses to add, edit, and remove terms.  
+- Set up a **daily media climate pipeline** with Talkwalker, Make.com, a type-safe API, and GitHub Actions.  
+- Made an **internal project manager** for my team (think Notion) with reminders that ping a Discord bot.  
+- Built a **survey builder** (think Google Forms, but with collector and surveyor-only forms too).
 
-**Backend Engineer Intern — Bank Central Asia (BCA)**  
-- Developed backend services using **FastAPI and Kafka consumers** deployed via Docker and Jenkins.  
-- Implemented **structured logging and monitoring dashboards** on an ELK stack.  
-- Conducted performance testing and backend optimization for services handling high request volumes.
+**Data Engineer Intern at FIFGROUP**  
+- Set up Oracle Database on Red Hat Enterprise Linux and explored high availability with Oracle Data Guard.  
+- Built a **CDC platform** on Apache Kafka (KRaft), Debezium, Prometheus, and Grafana to test log-based replication across 15+ Oracle tables.  
+- Synced Oracle databases with CDC for production tables.
 
----
-
-<div align="center">
-
-I’m currently working **full-time on-site**, but I’m open to **remote freelance collaborations and technical opportunities** related to backend development, data engineering, and applied AI.
-
-</div>
+**Backend Engineer Intern at Bank Central Asia (BCA)**  
+- Built 2 modular services, a **FastAPI gateway and a Kafka consumer layer** on Confluent Kafka, shipped with multi-stage Docker, Jenkins, and RedHat.  
+- Added **structured logging and monitoring dashboards** on an ELK stack.  
+- Load tested and tuned services that handle a lot of requests.
