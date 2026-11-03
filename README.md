@@ -7,11 +7,11 @@
     <img src="./cat-runner-light.svg" alt="A cat running and jumping over cacti" width="100%"/>
   </picture>
 
-  <h3>Data Engineer • Backend Developer • AI Tinkerer</h3>
+  <h3>Data Engineer • Backend Developer • AI Engineer</h3>
 
   <p>
-    Informatics student who likes pipelines, APIs, and systems that don't fall over at 3 AM.<br/>
-    Also very into clean, modular code. Future me says thanks.
+    Informatics student focused on data pipelines, backend services, and applied AI.<br/>
+    Committed to building reliable systems with clean, modular code.
   </p>
 
   <a href="https://www.linkedin.com/in/angelicawhiharto/">
@@ -32,13 +32,13 @@
 
 ## 👩‍💻 About Me
 
-I'm an Informatics student at President University. Most of my time goes into backends, data pipelines, and the occasional ML project. I've worked on Kafka, CDC, and FastAPI in real teams, and lately I've been digging into Spark and Iceberg.
+I'm an Informatics student at President University. My work centers on backend systems, data pipelines, and applied machine learning, using tools such as Kafka, Debezium, FastAPI, Spark, and Iceberg.
 
-I like code that's clean, split into small modules, and easy for the next person to read (usually that's me, three weeks later).
+I focus on clean, modular code that is easy to read, test, and maintain.
 
-- 🔧 **Right now:** CDC pipelines, lakehouse stuff, and backend systems  
-- ⚙️ **Daily tools:** Kafka, Spark, Iceberg, FastAPI, Docker, PostgreSQL, Linux  
-- 🎓 **School:** B.Sc. Informatics, President University (GPA 3.96, 116 credits)
+- 🔧 **Current focus:** CDC pipelines, lakehouse architectures, and backend systems  
+- ⚙️ **Tools:** Kafka, Spark, Iceberg, FastAPI, Docker, PostgreSQL, Linux  
+- 🎓 **Education:** B.Sc. Informatics, President University (GPA 3.96, 116 credits)
 
 ---
 
@@ -74,21 +74,21 @@ I like code that's clean, split into small modules, and easy for the next person
 
 ---
 
-## 💼 Where I've Worked
+## 💼 Experience
 
-**Developer & Automation Intern at CrescentRating (Singapore, remote)**  
+**Developer & Automation Intern, CrescentRating (Singapore, Remote)**  
 - Built the **Preconsultation website**, live at [crescentrating.com/research-and-consultancy](https://www.crescentrating.com/research-and-consultancy) and [crescentrating.com/preconsultation](https://www.crescentrating.com/preconsultation).  
-- Built the public **Glossary page** at [crescentrating.com/glossary](https://www.crescentrating.com/glossary), plus the internal tool the team uses to add, edit, and remove terms.  
-- Set up a **daily media climate pipeline** with Talkwalker, Make.com, a type-safe API, and GitHub Actions.  
-- Made an **internal project manager** for my team (think Notion) with reminders that ping a Discord bot.  
-- Built a **survey builder** (think Google Forms, but with collector and surveyor-only forms too).
+- Built the public **Glossary page** at [crescentrating.com/glossary](https://www.crescentrating.com/glossary), connected to an internal tool for adding, editing, and removing terminology.  
+- Developed a **daily media climate data pipeline** using Talkwalker, Make.com, a type-safe API, and GitHub Actions.  
+- Built an **internal project management tool**, similar to Notion, with task reminders delivered through a Discord bot.  
+- Built an internal **survey builder**, similar to Google Forms, with support for collector and surveyor-only forms.
 
-**Data Engineer Intern at FIFGROUP**  
-- Set up Oracle Database on Red Hat Enterprise Linux and explored high availability with Oracle Data Guard.  
-- Built a **CDC platform** on Apache Kafka (KRaft), Debezium, Prometheus, and Grafana to test log-based replication across 15+ Oracle tables.  
-- Synced Oracle databases with CDC for production tables.
+**Data Engineer Intern, PT Federal International Finance (FIFGROUP)**  
+- Installed and configured Oracle Database on Red Hat Enterprise Linux and explored high availability with Oracle Data Guard.  
+- Built a **Change Data Capture (CDC) platform** on Apache Kafka (KRaft), Debezium, Prometheus, and Grafana to evaluate log-based replication across 15+ Oracle source tables.  
+- Implemented CDC synchronization between Oracle databases for production tables.
 
-**Backend Engineer Intern at Bank Central Asia (BCA)**  
-- Built 2 modular services, a **FastAPI gateway and a Kafka consumer layer** on Confluent Kafka, shipped with multi-stage Docker, Jenkins, and RedHat.  
-- Added **structured logging and monitoring dashboards** on an ELK stack.  
-- Load tested and tuned services that handle a lot of requests.
+**Backend Engineer Intern, Bank Central Asia (BCA)**  
+- Developed 2 modular services, a **FastAPI gateway and a Kafka consumer layer**, using Confluent Kafka and deployed with multi-stage Docker images, Jenkins, and RedHat.  
+- Implemented **structured logging and monitoring dashboards** on an ELK stack.  
+- Conducted performance testing and optimization for services handling high request volumes.
