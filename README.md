@@ -77,8 +77,8 @@ I focus on clean, modular code that is easy to read, test, and maintain.
 ## 💼 Experience
 
 **Developer & Automation Intern, CrescentRating (Singapore, Remote)**  
-- Built the **Preconsultation website**, live at [crescentrating.com/research-and-consultancy](https://www.crescentrating.com/research-and-consultancy) and [crescentrating.com/preconsultation](https://www.crescentrating.com/preconsultation).  
-- Built the public **Glossary page** at [crescentrating.com/glossary](https://www.crescentrating.com/glossary), connected to an internal tool for adding, editing, and removing terminology.  
+- Built the **Preconsultation website**, live at [crescentrating.com/services/research-and-consultancy](https://www.crescentrating.com/services/research-and-consultancy) and [crescentrating.com/services/research-and-consultancy/preconsultation](https://www.crescentrating.com/services/research-and-consultancy/preconsultation).  
+- Built the public **Glossary page** at [crescentrating.com/resources/glossary](https://www.crescentrating.com/resources/glossary), connected to an internal tool for adding, editing, and removing terminology.  
 - Developed a **daily media climate data pipeline** using Talkwalker, Make.com, a type-safe API, and GitHub Actions.  
 - Built an **internal project management tool**, similar to Notion, with task reminders delivered through a Discord bot.  
 - Built an internal **survey builder**, similar to Google Forms, with support for collector and surveyor-only forms.
